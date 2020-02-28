@@ -10,7 +10,7 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		int a1 = input.nextInt() ;
 		int a2 = input.nextInt();
-
+		//hello
 		cal c = new cal();
 		System.out.println(c.add(a1,a2));
 		System.out.println(c.subtract(a1, a2));
