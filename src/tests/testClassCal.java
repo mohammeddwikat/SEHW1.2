@@ -20,7 +20,7 @@ class testClassCal {
 	}
 
 	@Test
-	public void testAdd_BothNumbersArePositive_ShouldReturnPositiveNumber() {
+	public void testAddPos() {
 		// Arrange
 		int a = 10;
 		int b = 20;
@@ -33,7 +33,7 @@ class testClassCal {
 
 
 	@Test
-	public void testAdd_BothNumbersAreNegative_ShouldReturnNegativeNumber() {
+	public void testAddNegr() {
 		// Arrange
 		int a = -10;
 		int b = -20;
